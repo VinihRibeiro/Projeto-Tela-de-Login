@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    background-color: #353535;
+    max-height: 600px;
+    width: 400px;
+    color: white;
+    border-radius: 15px;
+}
+
+.container_title {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.content_title h1 {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    letter-spacing: normal;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    padding: none;
+}
+
+.content_title p {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    letter-spacing: normal;
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+    padding: none;
+}
+#mensagem{
+    font-family: "Jost", serif;
+    font-size: 15px;
+}
+.content_form {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.content_form input[type="text"],
+.content_form input[type="password"],
+.content_form input[type="email"] {
+    width: 330px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #777877;
+}
+
+input::placeholder {
+    color: rgb(209, 208, 208);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.email {
+    padding: 15px 10px 15px 35px;
+    background: url(../images/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png) no-repeat 10px center;
+    background-size: 20px;
+    color: white;
+}
+
+.sobrenome {
+    padding: 15px 10px 15px 35px;
+    background: url(../images/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png) no-repeat 10px center;
+    background-size: 20px;
+    color: white;
+}
+
+.cadastro_email {
+    padding: 15px 10px 15px 35px;
+    background: url(../images/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png) no-repeat 10px center;
+    background-size: 20px;
+    color: white;
+}
+
+.cadastro_senha {
+    padding: 15px 10px 15px 35px;
+    background: url(../images/lock_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png) no-repeat 10px center;
+    background-size: 20px;
+    color: white;
+}
+
+.confirma_senha {
+    padding: 15px 10px 15px 35px;
+    background: url(../images/lock_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.png) no-repeat 10px center;
+    background-size: 20px;
+    color: white;
+}
+
+.container_button {
+    display: flex;
+    justify-content: center;
+}
+
+.content_button {
+    margin-top: 10px;
+}
+
+.buttom_cadastro {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #36943C;
+    font-family: "Jost", serif;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.link_login{
+    text-align: center;
+    padding: 13px 5px 15px 10px;
+    font-family: "Jost", serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+.link_login a{
+    text-decoration: none;
+    color: #36943C;
+}

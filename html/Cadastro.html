@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cadastro de Conta - Prenencha e o formulario para estar criando sua conta">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="/css/cadastro.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="container_title">
+                <div class="content_title">
+                    <header>
+                        <h1>Cadastro</h1>
+                        <p>Preencha os campos para se cadastrar</p>
+                        <p id="mensagem"></p>
+                    </header>
+                </div>
+            </div>
+            <div class="container_form">
+                <div class="content_form">
+                    <form href="">
+                        <div class="container_name">
+                            <div class="content_name">
+                                <input type="text" name="nomeCompleto" placeholder="Nome" class="email" required
+                                    autocomplete="off" id="nome">
+                            </div>
+                            <div class="container_sobrenome">
+                                <div class="content_sobrenome">
+                                    <input type="text" name="nomeCompleto" placeholder="Sobrenome" class="sobrenome"
+                                        autocomplete="off" id="sobrenome">
+                                </div>
+                                <div class="container_email">
+                                    <div class="content_email">
+                                        <input type="email" name="email" placeholder="Digite deu email"
+                                            class="cadastro_email" required autocomplete="off" id="email">
+                                    </div>
+                                    <div class="container_password">
+                                        <div class="content_password">
+                                            <input type="password" name="senha" placeholder="Senha"
+                                                class="cadastro_senha" required autocomplete="off" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="container_confirm_password">
+                                        <div class="content_confirm_password">
+                                            <input type="password" name="senha" placeholder="Confirme sua senha"
+                                                class="confirma_senha" required>
+                                        </div>
+                                    </div>
+                                    <div class="container_button">
+                                        <div class="content_button">
+                                            <button type="button" class="buttom_cadastro" onclick="cadastro()">Cadastrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="link_login">Possui login? Aperte <a href="./Login.html">aqui</a> para realizar o Login</p>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="../javascript/cadastro_validation.js" defer></script>
+
+</html>

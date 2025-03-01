@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tela de login - insira seu e-mail e senha para acessar sua conta">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <header class="header">
+                <h1>Login</h1>
+                <p class="subtitle">Insira suas credenciais para acessar sua conta</p>
+                <p id="mensagem"></p>
+            </header>
+            <main class="Input_Login">
+                <form href="">
+                    <div class="container_login">
+                        <input type="email" name="email" class="login" id="email" placeholder="Digite seu email" required
+                            autocomplete="off">
+                    </div>
+                    <div class="container_senha">
+                        <input type="password" name="senha" id="password" class="senha" placeholder="Digite sua senha"
+                            required autocomplete="off">
+                    </div>
+                    <div class="container_submit">
+                        <button type="button" class="buttom_login" onclick="login()">Entrar</button>
+                    </div>
+
+                    <p>Não tem cadastro? <a href="/html/Cadastro.html">Clique aqui</a> para criar sua conta agora mesmo!
+                    </p>
+                </form>
+            </main>
+        </div>
+    </div>
+</body>
+<script src="../javascript/login_validation.js"></script>
+
+</html>
